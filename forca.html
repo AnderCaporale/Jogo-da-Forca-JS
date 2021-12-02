@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="forca.js"></script>
+    <title>Desafio Forca</title>
+</head>
+<body>
+    <section>
+        <header>
+            <input type="button" value="INICIAR" onclick="iniciar()" id="btIniciar">
+            <input type="button" value="REINICIAR" onclick="reiniciar()">
+            <label for="">Informe uma Letra: </label>
+            <input type="text" size="1" maxlength="1" id="inputLetra">
+            <input type="submit" value="Confirmar" onclick="verificar()" id="btVerificar">
+        </header>
+        
+        <div id="tentativaLetra"></div>
+        <div id="forca">
+            <div id="suporte"></div>
+            <div id="suporte2"></div>
+            <div id="corda"></div>
+            <div id="boneco">
+                <div class="boneco" id="cabeça" hidden></div>
+                <div class="boneco" id="corpo" hidden></div>
+                <div class="boneco" id="braçoEsq" hidden></div>
+                <div class="boneco" id="braçoDir" hidden></div>
+                <div class="boneco" id="pernaEsq" hidden></div>
+                <div class="boneco" id="pernaDir" hidden></div>
+            </div>
+        </div>
+        <div id="linhas"></div>
+        <div id="fimJogo"></div>
+    </section>
+
+</body>
+</html>

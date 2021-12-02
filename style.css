@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: rgb(240, 239, 239);
+}
+
+input[type='button'],input[type='text'],input[type='submit'] {
+    margin: 2px 2px;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+input[type='button']{
+    background-color: rgb(201, 201, 201);
+}
+
+input[type='submit']{
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+label{
+    margin: 5px 3px;
+}
+
+#forca {
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+}
+
+#suporte, #suporte2, #corda{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.morto{
+    background-color: red !important; 
+}
+
+#suporte{
+    top: 5px;
+    left: 5px;
+    width: 5px;
+    height: 330px;
+}
+
+#suporte2{
+    top: -325px;
+    left: 10px;
+    width: 150px;
+    height: 5px;
+}
+
+#corda{
+    top: -330px;
+    left: 155px;
+    width: 5px;
+    height: 50px;
+}
+
+#boneco {
+    display: inline-block;
+    height: 15px;
+}
+
+#boneco div{
+    border: 1px solid black;
+    position: relative;
+    background-color: transparent;
+}
+
+#cabeça{
+    left: 128px;
+    top: -331px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+#corpo{
+    left: 155px;
+    top: -333px;
+    width: 5px;
+    height: 163px;
+}
+
+#braçoEsq{
+    transform: rotate(66deg);
+    left: 124px;
+    top: -490px;
+    width: 5px;
+    height: 65px;
+}
+
+#braçoDir{
+    transform: rotate(294deg);
+    left: 185px;
+    top: -555px;
+    width: 5px;
+    height: 65px;
+}
+
+#pernaEsq{
+    transform: rotate(45deg);
+    left: 131px;
+    top: -475px;
+    width: 5px;
+    height: 65px;
+}
+
+#pernaDir{
+    transform: rotate(315deg);
+    left: 179px;
+    top: -539px;
+    width: 5px;
+    height: 65px;
+}
+
+#fimJogo{
+    text-align: center;
+
+    font-size: 2em;
+}
+
+#linhas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linha{
+    width: 50px;
+    height: 20px;
+    margin: 10px 5px;
+    border: 1px solid black;
+    text-align: center;   
+}
